@@ -76,7 +76,9 @@ ul li a:hover {
 }
 
 .content {
+  width: 100%;
   display: inline-block;
+  border-radius: 8px;
 }
 
 .content-image {
@@ -88,6 +90,26 @@ ul li a:hover {
 
 .content-image:hover {
   transition-duration: 500ms;
+}
+
+.content-images {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 0;
+  margin: 32px;
+  transition-duration: 500ms;
+}
+
+.content-images:hover {
+  padding: 0;
+  display: inline-block;
+  transform: scale(1.1);
+  transition-duration: 500ms;
+}
+
+
+.blue {
+  background-color: #202C59;
 }
 
 .container {
