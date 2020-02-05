@@ -161,6 +161,11 @@ ul li a:hover {
   .content-images {
   display: block;
   width: 80%;
-}
+  margin: 20px auto;
+  }
+
+  .small {
+    max-width: 100px;
+  }
 }
 
