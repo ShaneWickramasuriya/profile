@@ -151,11 +151,16 @@ ul li a:hover {
   padding-bottom: 60px;
 }
 
-@media (max-width: 540px) {
+@media (max-width: 740px) {
   /* For a screen < 540px, this CSS will be read */
   ul li {
     display: block;
     list-style: none;
   }
+
+  .content-images {
+  display: block;
+  width: 80%;
+}
 }
 
