@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre:700|Cabin:700|Raleway:400,400i&display=swap')
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:#E0E5EC;
+  color: #202C59;
+  font-family: "Raleway";
+}
+
+h1 {
+  font-family: "Cabin";
+  font-weight: 700;
+  font-size: 48px;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: "Cabin";
+}
+
+p {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.profile {
+  width: 40%;
+  min-width: 250px;
+  margin-top: 40px;
+  transition-duration: 500ms;
+  margin: 0 auto;
+}
+
+.profile:hover {
+  box-shadow: 0 0 16px #F17105;
+  transition-duration: 500ms;
+  border-radius: 50%;
+  transform: scale(1.5);
+}
+
+a {
+  text-decoration: none;
+  color: #F17105;
+}
+
+ul {
+  padding: 0
+}
+
+ul li {
+  font-size: 48px;
+  display: inline-block;
+  margin: 16px;
+  transition-duration: 250ms;
+}
+
+ul li a:hover {
+  color: #202C59;
+  transition-duration: 250ms;
+}
+
+.container {
+  margin: 0 auto 24px auto;
+  padding: 30px;
+  width: 60%;
+  text-align: center;
+  background-color:#E0E5EC;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.5), -9px -9px 16px rgba(255,255,255, 0.5);
+  border-radius: 8px;
+  transition-duration: 500ms;
+}
+
+.container:hover {
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.5), -9px -9px 16px rgba(255,255,255, 0.5), 0 0 32px #F17105;
+}
+
+.main {
+  padding-bottom: 60px;
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  ul li {
+    display: block;
+    list-style: none;
+  }
+}
+
