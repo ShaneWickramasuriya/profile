@@ -65,6 +65,10 @@ ul li a:hover {
   transition-duration: 250ms;
 }
 
+.content {
+  display: inline-block;
+}
+
 .container {
   margin: 0 auto 24px auto;
   padding: 30px;
